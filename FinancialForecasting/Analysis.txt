@@ -1,0 +1,8 @@
+Step 1: Recursion simplifies problems by breaking them into smaller sub-problems.
+Example: Calculating compound interest or future value can be simplified using recursion.
+Step 4:
+- Time Complexity of naive recursion = O(n) where n = years.
+- If we add memoization, it remains O(n) but avoids redundant calculations, increasing efficiency.
+- Optimization is done using an auxiliary array to store computed values (memoization).
+Conclusion:
+Optimized recursive solution is preferred for large 'years' input, reducing stack depth and runtime.
